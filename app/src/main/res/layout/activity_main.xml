@@ -16,4 +16,8 @@
         android:layout_height="wrap_content"
         android:text="짬뽕밥"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카레라이스123"/>
 </LinearLayout>
