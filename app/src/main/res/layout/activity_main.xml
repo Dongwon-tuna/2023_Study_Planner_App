@@ -66,6 +66,12 @@
         android:layout_height="wrap_content"
         android:text="카메라 페이지 이동" />
 
+    <Button
+        android:id="@+id/btn_todolist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="할 일 목록" />
+
 
 
 
