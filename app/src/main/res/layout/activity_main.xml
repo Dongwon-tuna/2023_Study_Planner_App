@@ -10,49 +10,55 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="김치볶음밥"
         android:textColor="#E91E63"
-        android:textSize="20sp"
-        android:text="김치볶음밥"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#F44336"
-        android:textSize="20sp"
-        android:text="짬뽕밥"/>
+        android:textSize="20sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="짬뽕밥11"
+        android:textColor="#F44336"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="카레라이스"
         android:textColor="#FF9800"
-        android:textSize="20sp"
-        android:text="카레라이스"/>
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/et_id"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="ID를 입력하세요.."/>
+        android:hint="ID를 입력하세요.." />
     <!-- 타이핑 가능 란 -->
-
 
 
     <Button
         android:id="@+id/btn_test"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="버튼"/>
+        android:text="버튼" />
     <!-- 버튼 -->
 
     <EditText
         android:id="@+id/et_test"
         android:layout_width="200dp"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
+
     <Button
         android:id="@+id/btn_move"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="이동"/>
+        android:text="이동" />
 
+    <Button
+        android:id="@+id/btn_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="달력 보기" />
 
 
 

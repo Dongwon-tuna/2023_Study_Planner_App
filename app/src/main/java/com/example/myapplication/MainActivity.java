@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btn_move;
     private EditText et_test;
     private String str ;
+    private Button btn_calendar;
 
     EditText et_id;
     Button btn_test;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         //---------------------------페이지 이동 시 설정
         btn_move = findViewById(R.id.btn_move);
         et_test = findViewById(R.id.et_test);
+        btn_calendar = findViewById(R.id.btn_calendar);
 
 
         // btn_test의 버튼 역할
@@ -44,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
                 str = et_test.getText().toString();
                 Intent intent = new Intent(MainActivity.this,SubActivity.class);
                 intent.putExtra("str",str);
+                startActivity(intent); // 액티비티 이동 해주는 구문
+            }
+        });
+
+        btn_calendar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,CalendarActivity.class);
                 startActivity(intent); // 액티비티 이동 해주는 구문
             }
         });
