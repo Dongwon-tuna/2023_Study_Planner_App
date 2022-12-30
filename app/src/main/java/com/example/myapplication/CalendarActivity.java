@@ -22,8 +22,8 @@ public class CalendarActivity extends AppCompatActivity {
 
         cal.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
-            public void onSelectedDayChange(@NonNull CalendarView calendarView, int i, int i1, int i2) {
-
+            public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int day) {
+                tv_caltext.setText(year + "년" + (month+1) + "월" + day +"일");
             }
         });
     }
